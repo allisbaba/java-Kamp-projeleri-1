@@ -5,7 +5,7 @@ public class Main {
 
       // Customer customer1 = new Customer();
         BaseCustomerManager customerManager = new StarbucksCustomerManager(new MernisServiceAdaptor());
-        customerManager.Save(new Customer(12,"Furkan","Alliş","18920065832",2000));
+        customerManager.Save(new Customer(12,"Engin","Demiroğ","28861499108",1985));
 
     }
 }
