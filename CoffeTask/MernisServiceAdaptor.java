@@ -8,7 +8,7 @@ public class MernisServiceAdaptor implements CustomerCheckService {
 
         boolean result = false;
         try {
-            result = new KPSPublicLocator().getKPSPublicSoap().TCKimlikNoDogrula(18920065832L,"FURKAN","ALLİŞ",2000);
+            result = new KPSPublicLocator().getKPSPublicSoap().TCKimlikNoDogrula(28861499108L,"Engin","Demiroğ",1985);
 
         } catch (Exception ex) {
             System.out.println("Not a valid person!");
